@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { GameWorld } from '@/components/GameWorld';
 import { UI } from '@/components/UI';
 import { WorldClock } from '@/components/WorldClock';
+import { TodoList } from '@/components/TodoList';
 import { useGameStore } from '@/lib/store/gameStore';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <GameWorld />
       <UI />
       <WorldClock />
+      <TodoList />
     </div>
   );
 }
